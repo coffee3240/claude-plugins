@@ -18,6 +18,17 @@
       },
       "source": "./plugins/commit-commands",
       "category": "productivity"
+    },
+    {
+      "name": "feature-planner",
+      "description": "Creates phase-based feature plans with quality gates, TDD integration, and incremental delivery structure",
+      "version": "1.0.0",
+      "author": {
+        "name": "seungbok",
+        "email": "seungbok3240@gmail.com"
+      },
+      "source": "./plugins/feature-planner",
+      "category": "productivity"
     }
   ]
 }

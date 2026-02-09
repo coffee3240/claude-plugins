@@ -1,6 +1,6 @@
 ---
-allowed-tools: "Read, Write, Glob, Grep, LS, Bash(mkdir:*), Bash(ls:*), AskUserQuestion"
-description: "Creates phase-based feature plans with quality gates and incremental delivery structure. Use when planning features, organizing work, breaking down tasks, creating roadmaps, or structuring development strategy."
+name: feature-planner
+description: Creates phase-based feature plans with quality gates and incremental delivery structure. Use when planning features, organizing work, breaking down tasks, creating roadmaps, or structuring development strategy. Triggers on keywords like plan, planning, phases, breakdown, strategy, roadmap, organize, structure, outline.
 ---
 
 # Feature Planner
@@ -230,36 +230,6 @@ Consider:
 - **API/Controller Layer**: ≥70% (endpoints)
 - **UI/Presentation**: Integration tests preferred over coverage
 
-**Coverage Commands by Ecosystem**:
-```bash
-# JavaScript/TypeScript
-jest --coverage
-nyc report --reporter=html
-
-# Python
-pytest --cov=src --cov-report=html
-coverage report
-
-# Java
-mvn jacoco:report
-gradle jacocoTestReport
-
-# Go
-go test -cover ./...
-go tool cover -html=coverage.out
-
-# .NET
-dotnet test /p:CollectCoverage=true /p:CoverageReporter=html
-reportgenerator -reports:coverage.xml -targetdir:coverage
-
-# Ruby
-bundle exec rspec --coverage
-open coverage/index.html
-
-# PHP
-phpunit --coverage-html coverage
-```
-
 ### Common Test Patterns
 
 **Arrange-Act-Assert (AAA) Pattern**:
@@ -286,21 +256,6 @@ test 'feature should behave in specific way':
 
   // Then: Observable outcome
   then shouldSeeConfirmation()
-```
-
-**Mocking/Stubbing Dependencies**:
-```
-test 'component should call dependency':
-  // Create mock/stub
-  mockService = createMock(ExternalService)
-  component = new Component(mockService)
-
-  // Configure mock behavior
-  when(mockService.method()).thenReturn(expectedData)
-
-  // Execute and verify
-  component.execute()
-  verify(mockService.method()).calledOnce()
 ```
 
 ### Test Documentation in Plan

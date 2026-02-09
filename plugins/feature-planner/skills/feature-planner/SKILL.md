@@ -1,6 +1,11 @@
 ---
 name: feature-planner
-description: Creates phase-based feature plans with quality gates and incremental delivery structure. Use when planning features, organizing work, breaking down tasks, creating roadmaps, or structuring development strategy. Triggers on keywords like plan, planning, phases, breakdown, strategy, roadmap, organize, structure, outline.
+description: >
+  Creates phase-based feature plans with quality gates, TDD integration,
+  and incremental delivery. Use when the user asks to plan a feature,
+  break down tasks, create a roadmap, organize development work,
+  or structure implementation strategy.
+allowed-tools: Read, Write, Glob, Grep, Bash(mkdir:*), Bash(ls:*), AskUserQuestion
 ---
 
 # Feature Planner

@@ -5,6 +5,8 @@ description: >
   and incremental delivery. Use when the user asks to plan a feature,
   break down tasks, create a roadmap, organize development work,
   or structure implementation strategy.
+  한국어: 계획, 기능 계획, 계획 수립, 작업 분해, 로드맵, 개발 전략, 단계별 계획,
+  기능 설계, 구현 계획, 태스크 분해, 일정 계획.
 allowed-tools: Read, Write, Glob, Grep, Bash(mkdir:*), Bash(ls:*), AskUserQuestion
 ---
 

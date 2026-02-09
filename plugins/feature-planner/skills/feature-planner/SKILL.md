@@ -1,12 +1,13 @@
 ---
 name: feature-planner
 description: >
-  Creates detailed phase-based IMPLEMENTATION plans with TDD workflow,
-  quality gates, and incremental delivery. Use when the user needs
-  a step-by-step coding plan with test-first approach, NOT for
-  high-level strategy or architecture decisions.
-  한국어: 구현 계획, TDD 계획, 단계별 구현, 코딩 계획,
-  개발 태스크 분해, 테스트 주도 개발 계획, 페이즈별 구현.
+  Creates comprehensive feature plans including architecture decisions,
+  phase-based implementation with TDD workflow, quality gates, and
+  incremental delivery. Use for ALL planning needs - from high-level
+  design to detailed implementation. Covers architecture, risk assessment,
+  rollback strategy, and test-first development approach.
+  한국어: 기능 계획, 아키텍처 설계, 구현 계획, TDD 계획, 단계별 계획,
+  개발 전략, 로드맵, 작업 분해, 리스크 평가, 품질 게이트.
 allowed-tools: Read, Write, Glob, Grep, Bash(mkdir:*), Bash(ls:*), AskUserQuestion
 ---
 
